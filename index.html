@@ -250,6 +250,7 @@
     gap:56px;
     align-items:start;
   }
+  .about-grid > *{ min-width:0; }
   @media (max-width:820px){ .about-grid{grid-template-columns:1fr; gap:32px;} }
   .about-figure{
     aspect-ratio:4/3;
@@ -328,6 +329,7 @@
     background:var(--line);
     border:1px solid var(--line);
   }
+  .flow > *{ min-width:0; }
   @media (max-width:760px){ .flow{grid-template-columns:1fr 1fr;} }
   .flow-step{
     background:var(--paper);
@@ -356,6 +358,7 @@
     grid-template-columns:1fr 1fr;
     gap:56px;
   }
+  .info-grid > *{ min-width:0; }
   @media (max-width:820px){ .info-grid{grid-template-columns:1fr; gap:36px;} }
   .info-card h3{
     font-size:1.02rem;
